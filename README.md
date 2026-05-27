@@ -1,6 +1,6 @@
 ![Kotlin](https://img.shields.io/badge/Kotlin-Android-blue)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-UI-green)
-![License](https://img.shields.io/badge/License-MIT-orange)
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
 # Expker
 
