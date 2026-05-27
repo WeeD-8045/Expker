@@ -1,86 +1,136 @@
-Expker — Finance Tracking That Doesn't Suck
+![Kotlin](https://img.shields.io/badge/Kotlin-Android-blue)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-UI-green)
+![License](https://img.shields.io/badge/License-MIT-orange)
 
-Let's be honest: most finance apps are either too complicated or look like they were designed in 2005. I built Expker because I wanted something that was actually nice to look at and easy to use. No spreadsheets, no confusing jargon—just a clear view of where your money is going.
+# Expker
 
-Why Expker?
+> Finance tracking that doesn’t feel boring.
 
-I wanted an app that felt "at home" on a modern Android device. Built entirely with Jetpack Compose, Expker is fast, fluid, and respects your privacy by keeping everything local on your device.
+Expker is a modern Android expense tracker built with Kotlin and Jetpack Compose.  
+It helps you track spending, understand your habits, and manage money with a clean and fast experience — without clutter, ads, or unnecessary complexity.
 
-What it does
+---
 
-•
+# ✨ Features
 
-Track it all: Log expenses and income in about three taps.
+## 📊 Smart Expense Tracking
+- Add income and expenses in seconds
+- Clean transaction history
+- Monthly financial summaries
+- Real-time balance updates
 
-•
+## 📈 Visual Insights
+- Beautiful spending charts
+- Category-based analytics
+- Monthly trend tracking
+- Quick overview of where your money goes
 
-See the patterns: Beautiful charts that show you exactly how much you’re spending on "Transport" vs. "Games" (we’ve all been there).
+## 🎨 Personalization
+- Custom themes and accent colors
+- Light/Dark mode support
+- Create custom categories with icons
 
-•
+## 🔒 Privacy First
+- Everything stays locally on your device
+- No cloud sync
+- No account required
+- No tracking
 
-Make it yours: You can change the accent colors and theme to match your vibe.
+---
 
-•
+# 📱 Screenshots
 
-Organize your way: Don't like the default categories? Create your own groups with custom icons.
+## Dashboard & Transactions
 
-A Tour of the App
+<p align="center">
+  <img src="screenshots/home.jpg" width="30%" alt="Home Screen" />
+  <img src="screenshots/transac.jpg" width="30%" alt="Transaction List" />
+</p>
 
-The Dashboard
+---
 
-Your financial life at a glance. You get a clear "Total Balance" and a quick summary of your income and expenses for the month.
+## Statistics & Insights
 
-<p align="center"> <img src="screenshots/home.jpg" width="30%" alt="Home Screen" /> <img src="screenshots/transac.jpg" width="30%" alt="Transaction List" /> </p>
+<p align="center">
+  <img src="screenshots/stats2.jpg" width="30%" alt="Category Statistics" />
+  <img src="screenshots/stats.jpg" width="30%" alt="Monthly Trends" />
+</p>
 
-Real Insights
+---
 
-Switching between category breakdowns and monthly trends helps you spot where you can save without feeling like you're doing homework.
+## Add & Customize
 
-<p align="center"> <img src="screenshots/stats2.jpg" width="30%" alt="Categories Stats" /> <img src="screenshots/stats.jpg" width="30%" alt="Monthly Spending" /> </p>
+<p align="center">
+  <img src="screenshots/add_trans.jpg" width="30%" alt="Add Transaction" />
+  <img src="screenshots/profile.jpg" width="30%" alt="Profile Settings" />
+  <img src="screenshots/app_category.jpg" width="30%" alt="Custom Categories" />
+</p>
 
-Adding \& Customizing
+---
 
-Adding a transaction is snappy. You can also dive into the settings to tweak the appearance or manage your profile.
+# 🛠 Tech Stack
 
-<p align="center"> <img src="screenshots/add\_trans.jpg" width="30%" alt="Add Transaction" /> <img src="screenshots/profile.jpg" width="30%" alt="Account Profile" /> <img src="screenshots/app\_category.jpg" width="30%" alt="Add Category Group" /> </p>
+- **Language:** Kotlin
+- **UI:** Jetpack Compose
+- **Architecture:** MVVM
+- **Database:** Room Database
+- **State Management:** Flow + ViewModel
+- **Navigation:** Compose Navigation
+- **Design:** Material 3
 
-The Tech Stuff
+---
 
-If you're a dev, here’s what’s under the hood:
+# 🚀 Getting Started
 
-•
+## Clone the repository
 
-Language: Kotlin
+```bash
+git clone https://github.com/WeeD-8045/Expker.git
+```
 
-•
+## Open in Android Studio
 
-UI: Jetpack Compose (100% declarative!)
+Open the project folder in Android Studio and allow Gradle to sync.
 
-•
+## Run the app
 
-Database: Room (local-first)
+Connect an Android device or start an emulator, then press:
 
-•
+```text
+Run ▶
+```
 
-Architecture: MVVM with Flow and ViewModels
+The app comes with sample data so you can explore charts and analytics immediately.
 
-•
+---
 
-Navigation: Compose Navigation
+# 📂 Project Structure
 
-How to Run it
+```text
+app/
+ ├── data/
+ ├── model/
+ ├── ui/
+ │   ├── components/
+ │   ├── screens/
+ │   ├── theme/
+ │   └── viewmodel/
+```
 
-1\.
+---
 
-Clone this repo.
+# 🎯 Goals
 
-2\.
+Expker was built to make personal finance tracking:
+- Simple
+- Fast
+- Beautiful
+- Private
 
-Open it in Android Studio.
+No spreadsheets. No bloated dashboards. Just clarity.
 
-3\.
+---
 
-Hit Run. It’ll pre-populate with some sample data so you can see the charts in action right away.
+# ❤️ Built With
 
-Built with ❤️ for better budgeting
-
+Built using modern Android development tools
